@@ -15,9 +15,9 @@ bad_chars = ["'", '(', ')', ","]
 bchars=["'", '(', ')','[',']']
 mydb = msqlc.connect(
   host="localhost",
-  user="root",
-  passwd="imrk2001",
-  database="projects",
+  user="xxxx",
+  passwd="xxxx",
+  database="xxxx",
   auth_plugin='mysql_native_password'
 )
 mc=mydb.cursor(buffered=True)
